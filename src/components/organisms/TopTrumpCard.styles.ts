@@ -19,14 +19,13 @@ const createStyles = (theme: Theme) =>
       borderRadius: 6,
     },
     cardImageContainer: {
-      height: '75%',
+      height: '66%',
       width: '96%',
       marginTop: 8,
       alignItems: 'center',
       overflow: 'hidden',
       borderRadius: 6,
     },
-    cardImage: {},
   });
 
 export default createStyles;
