@@ -1,7 +1,8 @@
 import {useThemedStyles} from '@src/hooks/useThemedStyles';
 import React, {FC} from 'react';
-import {Image, Text, View} from 'react-native';
+import {Image, View} from 'react-native';
 import CardHeader from '../atoms/CardHeader/CardHeader';
+import StatsRow from '../atoms/StatsRow/StatsRow';
 import createStyles from './TopTrumpCard.styles';
 
 export const TopTrumpCard: FC = () => {
@@ -16,7 +17,7 @@ export const TopTrumpCard: FC = () => {
             source={require('@src/assets/images/humber-bridge.png')}
           />
         </View>
-        <Text>facts facts facts</Text>
+        <StatsRow statKey="Length (m)" statValue={2220} />
       </View>
     </View>
   );
