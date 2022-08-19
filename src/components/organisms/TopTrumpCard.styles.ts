@@ -15,7 +15,7 @@ const createStyles = (theme: Theme) =>
       borderWidth: 1,
       margin: 6,
       alignItems: 'center',
-      backgroundColor: theme.colors.grey10,
+      backgroundColor: theme.colors.white,
       borderRadius: 6,
     },
     cardImageContainer: {
