@@ -14,17 +14,22 @@ const createStyles = (theme: Theme) =>
       borderColor: theme.colors.grey80,
       borderWidth: 1,
       margin: 6,
+      borderRadius: 6,
+      justifyContent: 'space-around',
       alignItems: 'center',
       backgroundColor: theme.colors.white,
-      borderRadius: 6,
     },
     cardImageContainer: {
-      height: '66%',
+      height: '60%',
       width: '96%',
       marginTop: 8,
-      alignItems: 'center',
       overflow: 'hidden',
       borderRadius: 6,
+      justifyContent: 'center'
+    },
+    image: {
+      width: 400,
+      height: 400,
     },
   });
 

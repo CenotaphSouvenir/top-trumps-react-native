@@ -3,13 +3,14 @@ import React, {FC} from 'react';
 import {StyleProp, Text, View, ViewStyle} from 'react-native';
 import createStyles from './StatsRow.styles';
 
-export interface StatsRowProps {
+interface StatsRowProps {
   statKey: string;
   statValue: number;
-  style: StyleProp<ViewStyle>;
+  highestWins: boolean
+  style?: StyleProp<ViewStyle>;
 }
 
-export const StatsRow: FC<StatsRowProps> = ({statKey, statValue, style}) => {
+export const StatsRow: FC<StatsRowProps> = ({statKey, statValue, highestWins, style}) => {
   const styles = useThemedStyles(createStyles);
 
   return (

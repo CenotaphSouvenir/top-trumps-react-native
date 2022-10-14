@@ -14,6 +14,7 @@ const createStyles = (theme: Theme) =>
       color: theme.colors.black,
       alignItems: 'flex-start',
       marginHorizontal: 8,
+      fontWeight: '700'
     },
   });
 

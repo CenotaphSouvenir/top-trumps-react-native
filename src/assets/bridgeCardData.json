@@ -1,0 +1,78 @@
+{
+  "cardStatRules": {
+    "length": {
+      "label": "Length (m)",
+      "highestWins": true
+    },
+    "width": {
+      "label": "Width (m)",
+      "highestWins": true
+    },
+    "height": {
+      "label": "Height (m)",
+      "highestWins": true
+    },
+    "opened": {
+      "label": "Year opened",
+      "highestWins": false
+    },
+    "lanes": {
+      "label": "Lanes",
+      "highestWins": true
+    },
+    "traffic": {
+      "label": "Vehicles/day",
+      "highestWins": true
+    }
+  },
+  "cards": [
+    {
+      "name": "Humber Bridge",
+      "type": "Suspension",
+      "location": "Hull, England",
+      "image": "humber-bridge.png",
+      "length": 2220,
+      "width": 28.5,
+      "height": 155.5,
+      "opened": 1981,
+      "lanes": 4,
+      "traffic": 17140
+    },
+    {
+      "name": "Viaduc de Millau",
+      "type": "Cable-stayed viaduct",
+      "location": "Millau, France",
+      "image": "viaduc-millau.jpg",
+      "length": 2460,
+      "width": 32.1,
+      "height": 336.4,
+      "opened": 2004,
+      "lanes": 4,
+      "traffic": 17500
+    },
+    {
+      "name": "Golden Gate Bridge",
+      "type": "Suspension",
+      "location": "San Francisco, California",
+      "image": "golden-gate.jpg",
+      "length": 2737.1,
+      "width": 27.4,
+      "height": 227.4,
+      "opened": 1937,
+      "lanes": 6,
+      "traffic": 110000
+    },
+    {
+      "name": "Brooklyn Bridge",
+      "type": "Suspension / cable-stayed",
+      "location": "New York, New York",
+      "image": "brooklyn-bridge.jpg",
+      "length": 1833.7,
+      "width": 25.9,
+      "height": 82.9,
+      "opened": 1883,
+      "lanes": 5,
+      "traffic": 121930
+    }
+  ]
+}
