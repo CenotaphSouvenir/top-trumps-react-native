@@ -1,3 +1,4 @@
+import StatItem from '@src/data/classes/StatItem';
 import {useThemedStyles} from '@src/hooks/useThemedStyles';
 import React, {FC} from 'react';
 import {View} from 'react-native';
@@ -6,7 +7,7 @@ import createStyles from './StatsGrid.styles';
 
 export type CardStats = {key: string; value: number}[];
 interface StatsGridProps {
-  cardStats: {key: string; value: number; highestWins: boolean}[];
+  cardStats: StatItem[];
 }
 
 export const StatsGrid: FC<StatsGridProps> = ({cardStats}) => {
@@ -14,8 +15,13 @@ export const StatsGrid: FC<StatsGridProps> = ({cardStats}) => {
 
   return (
     <View style={styles.container}>
-      {cardStats.map((stat, index) => (
-        <StatsRow key={index} statKey={stat.key} statValue={stat.value} highestWins />
+      {cardStats.map(stat => (
+        <StatsRow
+          key={stat.index}
+          statKey={stat.statKey}
+          statValue={stat.statValue}
+          highestWins={stat.highestWins}
+        />
       ))}
     </View>
   );

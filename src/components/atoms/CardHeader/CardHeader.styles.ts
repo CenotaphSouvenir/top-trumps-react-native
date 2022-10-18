@@ -5,16 +5,28 @@ const createStyles = (theme: Theme) =>
   StyleSheet.create({
     headerContainer: {
       marginTop: 12,
-      marginBottom: 4,
+      paddingHorizontal: 8,
       width: '100%',
-      justifyContent: 'flex-start',
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      justifyContent: 'space-between',
     },
     header: {
       fontSize: 24,
+      width: '100%',
       color: theme.colors.black,
-      alignItems: 'flex-start',
-      marginHorizontal: 8,
-      fontWeight: '700'
+      fontWeight: '700',
+      marginBottom: 4
+    },
+    type: {
+      fontSize: 16,
+      color: theme.colors.black,
+      fontWeight: '400',
+    },
+    location: {
+      fontSize: 16,
+      color: theme.colors.black,
+      fontWeight: '400',
     },
   });
 

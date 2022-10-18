@@ -1,26 +1,32 @@
 {
   "cardStatRules": {
     "length": {
+      "index": 0,
       "label": "Length (m)",
       "highestWins": true
     },
     "width": {
+      "index": 1,
       "label": "Width (m)",
       "highestWins": true
     },
     "height": {
+      "index": 2,
       "label": "Height (m)",
       "highestWins": true
     },
     "opened": {
+      "index": 3,
       "label": "Year opened",
       "highestWins": false
     },
     "lanes": {
+      "index": 4,
       "label": "Lanes",
       "highestWins": true
     },
     "traffic": {
+      "index": 5,
       "label": "Vehicles/day",
       "highestWins": true
     }

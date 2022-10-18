@@ -18,6 +18,7 @@ const createStyles = (theme: Theme) =>
       justifyContent: 'space-around',
       alignItems: 'center',
       backgroundColor: theme.colors.white,
+      paddingBottom: 8
     },
     cardImageContainer: {
       height: '60%',
